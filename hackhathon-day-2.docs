@@ -55,7 +55,9 @@ The transport API generates a monitoring variety and updates the order’s deliv
 The person can view their order reputation and tracking information on the Order Tracking Page.
   
 Step 9: User Views Profile/Order History
-  
+
 Profile Page:
 The consumer can log in and consider their order records.
 Order records is fetched from Sanity CMS and displayed.
+
+
