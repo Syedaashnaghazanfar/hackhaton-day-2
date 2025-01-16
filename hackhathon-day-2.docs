@@ -1,0 +1,61 @@
+HERE IS A STEP BY STEP GUIDE ON HOW MY WEBSITE WILL WORK :-
+  
+﻿Step 1: User Visits the Website  
+   
+Frontend (Next.Js):
+The person opens the website, touchdown on the Home Page.
+Data like featured products or banners is fetched from Sanity CMS to display dynamic content.
+  
+Step 2: User Browses Products
+  
+The person navigates to the Products Page.
+Sanity CMS:
+The list of products is stored inside the Sanity database.
+An API name fetches product information (name, fee, snap shots, description) and displays them on the web page dynamically.
+  
+Step 3: User Clicks on a Product
+  
+The person clicks on a product to view its information on the Product Details Page.
+Sanity CMS:
+A precise product’s information are fetched via API, together with specifications, fee, and stock availability.
+This statistics is displayed to the user dynamically.
+  
+Step 4: User Adds Product to Cart
+  
+The person clicks at the Add to Cart button.
+Frontend (Next.Js):
+The cart information (product ID, amount, charge) is quickly saved in the user's browser session or a kingdom control device (like Redux or Context API).
+  
+Step 5: User Logs In/Signs Up
+  
+The user proceeds to checkout but wishes to log in or sign on.
+Clerk Authentication:
+The consumer logs in through electronic mail, Google, or another approach.
+Clerk securely manages the person’s session and stores their data.
+  
+Step 6: User Proceeds to Checkout
+  
+The consumer clicks at the Checkout button.
+Stripe Payment Integration:
+The total cart cost is calculated.
+The person is redirected to a steady fee web page powered with the aid of Stripe to go into their card or price details.
+  
+Step 7: Payment Confirmation
+  
+Once the charge is a success:
+Stripe sends a price confirmation returned in your internet site via its API.
+Sanity CMS:
+The order info (person data, purchased products, price repute) are stored in the Sanity database for monitoring.
+  
+Step 8: Shipping and Order Tracking
+  
+Third-birthday party API (e.G., Shippo/EasyPost):
+The order is surpassed to a delivery API.
+The transport API generates a monitoring variety and updates the order’s delivery fame.
+The person can view their order reputation and tracking information on the Order Tracking Page.
+  
+Step 9: User Views Profile/Order History
+  
+Profile Page:
+The consumer can log in and consider their order records.
+Order records is fetched from Sanity CMS and displayed.
