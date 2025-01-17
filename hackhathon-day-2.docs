@@ -49,7 +49,7 @@ The order info (person data, purchased products, price repute) are stored in the
   
 Step 8: Shipping and Order Tracking
   
-Third-birthday party API (e.G., Shippo/EasyPost):
+Third party API (e.G., Shippo/EasyPost):
 The order is surpassed to a delivery API.
 The transport API generates a monitoring variety and updates the order’s delivery fame.
 The person can view their order reputation and tracking information on the Order Tracking Page.
